@@ -1,39 +1,39 @@
-188.166.235.15 ansible_ssh_user=root ansible_ssh_private_key_file=/var/snap-ci/repo/id_rsa
+188.166.208.248 ansible_ssh_user=root ansible_ssh_private_key_file=/var/snap-ci/repo/id_rsa
 
 [nagios-server]
 
 [bahmni-emr]
-188.166.235.15
+188.166.208.248
 
 [bahmni-emr-db]
-188.166.235.15
+188.166.208.248
 
 [bahmni-emr-db-slave]
 
 [bahmni-erp]
-188.166.235.15
+188.166.208.248
 
 [bahmni-erp-db]
-188.166.235.15
+188.166.208.248
 
 [bahmni-erp-db-slave]
 
 [bahmni-lab]
-188.166.235.15
+188.166.208.248
 
 [bahmni-lab-db]
-188.166.235.15
+188.166.208.248
 
 [bahmni-lab-db-slave]
 
 [bahmni-reports]
-188.166.235.15
+188.166.208.248
 
 [pacs-integration]
-188.166.235.15
+188.166.208.248
 
 [pacs-integration-db]
-188.166.235.15
+188.166.208.248
 
 [pacs-integration-db-slave]
 
