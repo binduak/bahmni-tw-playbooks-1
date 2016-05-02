@@ -12,7 +12,7 @@
   template: src=bahmni.repo.j2 dest=/etc/yum.repos.d/bahmni.repo
 
 - name: Install bahmni-installer rpm
-  yum: name= {{ bahmni-installer-version }} state=present
+  yum: name= {{ bahmni_installer_version }} state=present
 
 - name: Download {{ implementation_name }} config zip from git
   get_url:
