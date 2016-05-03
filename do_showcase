@@ -1,12 +1,12 @@
-128.199.122.17 ansible_ssh_user=root ansible_ssh_private_key_file=/var/snap-ci/repo/id_rsa
+128.199.253.112 ansible_ssh_user=root ansible_ssh_private_key_file=/var/snap-ci/repo/id_rsa
 
 [nagios-server]
 
 [bahmni-emr]
-128.199.122.17
+128.199.253.112
 
 [bahmni-emr-db]
-128.199.122.17
+128.199.253.112
 
 [bahmni-emr-db-slave]
 
