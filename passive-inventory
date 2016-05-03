@@ -1,0 +1,35 @@
+192.168.33.10 ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
+128.199.253.112 ansible_ssh_user=root ansible_ssh_private_key_file=/var/snap-ci/repo/id_rsa
+[nagios-server]
+  
+[bahmni-emr]
+192.168.33.10
+128.199.253.112 passive=yes
+  
+[bahmni-emr-db]
+192.168.33.10
+  
+[bahmni-emr-db-slave]
+128.199.253.112
+
+ 
+[pacs-integration]
+ 
+[pacs-integration-db]
+ 
+[pacs-integration-db-slave]
+ 
+[dcm4chee]
+ 
+[bahmni-event-log-service]
+  
+[local:children]
+nagios-server
+bahmni-emr
+bahmni-emr-db
+bahmni-emr-db-slave
+pacs-integration
+pacs-integration-db
+pacs-integration-db-slave
+dcm4chee
+bahmni-event-log-service
