@@ -1,14 +1,30 @@
-188.166.243.62 ansible_ssh_user=root ansible_ssh_private_key_file=/var/lib/go-agent/bindudo
+128.199.197.197  ansible_ssh_user=root ansible_ssh_private_key_file=/var/lib/go-agent/bindudo
 
 [nagios-server]
 
 [bahmni-emr]
-188.166.243.62
+128.199.197.197
 
 [bahmni-emr-db]
-188.166.243.62
+128.199.197.197
 
 [bahmni-emr-db-slave]
+
+
+[bahmni-erp-db]
+
+[bahmni-erp-db-slave]
+
+[bahmni-erp]
+
+[bahmni-lab-db]
+
+[bahmni-lab-db-slave]
+
+[bahmni-lab]
+
+[bahmni-reports]
+
 
 [pacs-integration]
 
@@ -27,7 +43,13 @@ nagios-server
 bahmni-emr
 bahmni-emr-db
 bahmni-emr-db-slave
-
+bahmni-lab
+bahmni-lab-db
+bahmni-lab-db-slave
+bahmni-erp
+bahmni-erp-db
+bahmni-erp-db-slave
+bahmni-reports
 pacs-integration
 pacs-integration-db
 pacs-integration-db-slave
